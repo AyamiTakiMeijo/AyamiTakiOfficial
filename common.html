@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ayami Taki</title>
+
+<!-- Adobe font -->
+<link rel="stylesheet" href="https://use.typekit.net/dqr4xyd.css">
+<link rel="stylesheet" href="https://use.typekit.net/dqr4xyd.css">
+
+<style>
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body, html {
+height: 100%;
+font-family: 'Helvetica Neue', sans-serif;
+color: white;
+}
+
+.background {
+background: url('background.jpg') no-repeat center center;
+background-size: cover;
+height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding-left: 50%;
+}
+
+.content {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    transform: translateX(-100px)
+}
+
+.name {
+font-family: "mina", serif;
+font-weight: 400;
+font-style: normal;
+font-size: 60px;
+margin-bottom: 40px;
+}
+
+.menu {
+font-family: "circe-rounded", sans-serif;
+font-weight: 200;
+font-style: normal;
+display: flex;
+flex-direction: column;
+gap: 60px;
+}
+
+.menu a {
+font-size: 24px;
+color: white;
+text-decoration: none;
+transition: color 0.3s ease;
+}
+
+.menu a:hover {
+color: #ccccff;
+}
+
+@media screen and (max-width: 768px) {
+.background {
+padding-left: 10%;
+align-items: flex-start;
+}
+
+.name {
+font-size: 48px;
+}
+
+.menu a {
+font-size: 20px;
+}
+}
+</style>
+</head>
+<body>
+<div class="background">
+<div class="content">
+<div class="name">Ayami Taki</div>
+<div class="menu">
+<a href="about.html">About</a>
+<a href="lesson.html">Lesson</a>
+<a href="contact.html">Contact</a>
+</div>
+</div>
+</div>
+</body>
+</html>
